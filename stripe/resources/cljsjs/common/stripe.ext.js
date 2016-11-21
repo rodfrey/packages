@@ -75,3 +75,25 @@ Stripe.bankAccount.validateRoutingNumber = function(t, r) { };
  * @param {string} r
  */
 Stripe.bankAccount.validateAccountNumber = function(t, r) { };
+
+/**
+ * @param {Object} t
+ * @param {function()} r
+ * @param {function()} i
+ */
+Stripe.piiData.createToken = function(t,r,i) {};
+
+/**
+ * @param {function()} r
+ */
+Stripe.applePay.checkAvailability = function(r) {};
+
+/**
+ * @param {Object} t
+ * @param {function()} r
+ * @param {function()} i
+ */
+Stripe.applePay.buildSession = function(t,r,i) {};
+
+
+
